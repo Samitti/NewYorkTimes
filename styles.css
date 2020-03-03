@@ -62,17 +62,62 @@ nav .right-align{
 
 }
 
-article {
-    width: 1000px;
-    height: auto;
-    margin:45px 0 0;
+article { 
+    margin-left: 15%; 
+    margin-right: 15%; 
+    background-color: aqua;     
 }
 
 section {
-    width: 700px;
+    width: 100%;
+    margin-top: 30px;
 }
 
-figure   {
-    height: auto;
-    width: 320px;
+.section-1 .header {
+    font-size: 30px;
+    font-family: nyt-cheltenham,georgia,'times new roman',times,serif;
+    text-align: center;
+    font-style: italic;
+    font-weight: 700;
+    color: #121212;
 }
+
+figure img{
+    margin-top: 30px;
+    width: 100%;
+    height: auto;    
+}
+
+.section-1-child{
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.auther{
+    margin-bottom: 20px;
+}
+
+.section-1-child ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;   
+    border: 1px solid yellow;
+}
+
+.section-1-child .social{
+    width: 30%;
+}
+
+.section-1-child .social-items {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid green;
+
+}
+.social-items .fab{   
+    color: black;
+}
+
