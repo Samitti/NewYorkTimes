@@ -62,10 +62,14 @@ nav .right-align {
   margin-left: 28px;
 }
 
+.section-1 {
+  display: flex;
+  align-items: center;
+}
+
 article {
-  margin-left: 15%;
-  margin-right: 15%;
-  /*background-color: aqua;*/
+  /* margin-left: 15%; */
+  /*margin-right: 15%;*/
 }
 
 section {
@@ -94,6 +98,7 @@ figure img {
   margin-top: 30px;
   display: flex;
   flex-direction: column;
+  background-color: yellow;
 }
 
 .auther {
@@ -133,10 +138,12 @@ figure img {
 }
 
 aside {
-  width: 200px;
-  position: relative;
-  right: -850px;
-  top: -900px;
+  background: green;
+  /*width: 200px;*/
+  /*position: relative;*/
+  /*right: -850px;*/
+
+  margin-top: 900px;
 }
 
 .editors-items{
