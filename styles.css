@@ -203,3 +203,29 @@ aside {
   height: 75px;
   margin-right: 10px;
 }
+
+.section-2 {
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.story-body-grid {
+  background: url("images/inflation-1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  /* row-gap: 140px; */
+  column-gap: 15px;
+  width: 100%;
+  height: 100%;
+}
+
+.story-body-grid p {
+  font-size: 16px;
+  font-family: nyt-franklin, arial, helvetica, sans-serif;
+  font-weight: 300;
+  padding: 270px 10px 0;
+  line-height: 17px; 
+}
