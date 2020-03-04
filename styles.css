@@ -65,7 +65,7 @@ nav .right-align {
 article {
   margin-left: 15%;
   margin-right: 15%;
-  background-color: aqua;
+  /*background-color: aqua;*/
 }
 
 section {
@@ -119,4 +119,10 @@ figure img {
 
 .social-items .fab {
   color: black;
+}
+
+.story > p {
+  font-family:'Times New Roman', Times, serif;
+  font-size: 25px;
+  margin-bottom: 20px;
 }
