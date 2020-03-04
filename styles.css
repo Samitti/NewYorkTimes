@@ -13,7 +13,7 @@
   border: 1px solid #e2e2e2;
   height: 43px;
   background: #fff;
-  padding: 10px 15px 6px;
+  padding: 10px 15px 6px;  
 }
 
 nav .left-align {
@@ -64,19 +64,30 @@ nav .right-align {
 
 .section-1 {
   display: flex;
+  flex-direction: column;
   align-items: center;
+  /* background-color: red; */
+}
+
+figcaption {
+  width: 73%;
+}
+figcaption span {
+  font-size: 13px;
+  color: #606060;
+}
+
+.site-content{
+  flex-basis: 100%;
+  /* background-color: rgb(17, 48, 223);   */
+  margin-left: 15%;
+  margin-right: 15%;
 }
 
 article {
   /* margin-left: 15%; */
   /*margin-right: 15%;*/
 }
-
-section {
-  width: 100%;
-  margin-top: 30px;
-}
-
 .section-1 .header {
   font-size: 30px;
   font-family: nyt-cheltenham, georgia, 'times new roman', times, serif;
@@ -92,24 +103,35 @@ figure img {
   height: auto;
 }
 
-.section-1-child {
-  margin-left: 15%;
-  margin-right: 15%;
-  margin-top: 30px;
+.story-body {
   display: flex;
-  flex-direction: column;
-  background-color: yellow;
+  justify-content: space-around;
+}
+
+.section-1-child {  
+  /* background-color: yellow; */
+  flex-basis: 50%; 
+  margin-left: 25%;
+  margin-top: 40px;
 }
 
 .auther {
   margin-bottom: 20px;
+  color: #333; 
+}
+
+.auther a {
+  color: #333;
+}
+
+.date-social{
+ margin-bottom: 20px;
 }
 
 .section-1-child ul {
   display: flex;
   justify-content: space-between;
-  list-style: none;
-  border: 1px solid yellow;
+  list-style: none;  
 }
 
 .section-1-child .social {
@@ -119,7 +141,7 @@ figure img {
 .section-1-child .social-items {
   display: flex;
   justify-content: space-between;
-  border: 1px solid green;
+  /* border: 1px solid green; */
 }
 
 .social-items .fab {
@@ -128,7 +150,7 @@ figure img {
 
 .story p {
   font-family:'Times New Roman', Times, serif;
-  font-size: 20px;
+  font-size: 22px;
   margin-bottom: 20px;
 }
 
@@ -137,13 +159,34 @@ figure img {
   margin-bottom: 20px;  
 }
 
-aside {
-  background: green;
-  /*width: 200px;*/
-  /*position: relative;*/
-  /*right: -850px;*/
+.middle-sub-link{
+  text-align: center;  
+}
 
+.middle-sub-link hr{
+  width: 72px;
+  border-bottom: 1px solid rgb(204, 204, 204);
+  margin: 10px auto 10px;
+}
+
+.middle-sub-link p{
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 17px;
+  color: #333;
+}
+
+aside {
+  /* background: green; */
   margin-top: 900px;
+  width: 15%;  
+}
+
+.aside-header{
+  padding: 10px 10px 10px 0;
+}
+.aside-header hr{
+  margin-top: 5px;
 }
 
 .editors-items{
