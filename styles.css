@@ -156,6 +156,7 @@ figure img {
   color: black;
 }
 
+.section-3 p,
 .story p {
   font-family:'Times New Roman', Times, serif;
   font-size: 22px;
@@ -275,5 +276,75 @@ aside {
   margin-left: 25%;
   margin-top: 40px;
 }
+
+.article-bottom {
+  display: flex;
+  flex-direction: column;
+  width: 100%; 
+  background-color: rgb(219, 139, 139);
+}
+
+.upper-section {
+  display: flex;
+  justify-content: center;
+  background-color: blueviolet;
+  height: 200px;
+}
+
+.upper-section-left-grid {
+  background-color: green;
+  border: 2px solid green;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.upper-section-left-grid hr {
+  margin-top: 10px; 
+  border-bottom: 1px solid rgb(37, 11, 11);  
+}
+
+.upper-section-aside {
+  background-color: red;
+  border: 2px solid red;
+}
+
+.more-article-links {
+  background-color: yellow;
+}
+
+.second-editors-picks {
+  background-color: blue;
+}
+
+.lower-section {
+  background-color: gray;
+}
+
+.bottom-nav {
+  background-color: hotpink;
+}
+
+.footer {
+  background-color: indigo;
+}
+/* 
+.aside-upper-section {
+  background-color: rgb(0, 26, 255);
+}
+
+
+.lower-section {
+  display: flex; 
+  background-color: rgb(17, 165, 190);
+}
+
+.upper-section-left-grid {
+  display: flex;
+  flex-direction: column;
+  background-color: green;
+} */
+
+
 
 
