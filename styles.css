@@ -288,15 +288,31 @@ aside {
   display: flex;
   justify-content: center;
   background-color: blueviolet;
-  height: 200px;
+  margin: 50px 10% auto 10%;
 }
 
 .upper-section-left-grid {
   background-color: green;
   border: 2px solid green;
-  display: flex;
-  flex-direction: column;
+   flex: 3;
+
+}
+
+.upper-section-aside {
   flex: 1;
+}
+
+.article-grid-item {
+  /* margin: 0 20px 20px 20px; */
+}
+
+.more-article-links {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  column-gap: 20px;
+  row-gap:  20px;
+
 }
 
 .upper-section-left-grid hr {
@@ -327,24 +343,4 @@ aside {
 
 .footer {
   background-color: indigo;
-}
-/* 
-.aside-upper-section {
-  background-color: rgb(0, 26, 255);
-}
-
-
-.lower-section {
-  display: flex; 
-  background-color: rgb(17, 165, 190);
-}
-
-.upper-section-left-grid {
-  display: flex;
-  flex-direction: column;
-  background-color: green;
-} */
-
-
-
-
+} 
