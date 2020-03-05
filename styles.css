@@ -113,7 +113,7 @@ figure img {
 }
 
 .section-1-child {  
-  /* background-color: yellow; */
+  background-color: yellow;
   flex-basis: 50%; 
   margin-left: 25%;
   margin-top: 40px;
@@ -210,26 +210,66 @@ aside {
 
 .section-2 {
   margin-left: 15%;
-  margin-right: 15%;
+  margin-right: 15%;  
+}
+
+.summary-txt {
+  line-height: 1.125rem;
+  font-weight: 400;
+  font-style: normal;
+  font-family: nyt-cheltenham-sh,georgia,times new roman,times,serif;
+  color: #666;
+  margin-bottom: 5px;
 }
 
 .story-body-grid {
   background: url("images/inflation-1.png");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-  /* row-gap: 140px; */
-  column-gap: 15px;
-  width: 100%;
-  height: 100%;
+  grid-template-rows: 1fr 1fr;  
+  column-gap: 15px;  
 }
 
 .story-body-grid p {
-  font-size: 16px;
+  font-size: 14px;
   font-family: nyt-franklin, arial, helvetica, sans-serif;
   font-weight: 300;
-  padding: 270px 10px 0;
-  line-height: 17px; 
+  padding: 150px 0px 0;
+  line-height: 17px;
+  color: #606060;  
+ }
+
+.para-begin {
+  color: black;
+  font-size: 11px;
+  font-weight: bold;
+  letter-spacing: .05em;
 }
+
+.grid-footer hr {
+  display: flex;
+  margin-bottom: 13px;
+  margin-top: 10px;
+  width: 60px;
+  border-bottom: 1px solid black;  
+}
+
+.grid-footer p {
+  font-size: 13px;
+  line-height: 1.125rem;
+  color: #606060;  
+  font-weight: 500;
+  font-style: normal;
+  font-family: nyt-franklin,arial,helvetica,sans-serif;
+}
+
+.section-3 {  
+  background-color: rgb(24, 88, 226);
+  margin-right: 25%;
+  margin-left: 25%;
+  margin-top: 40px;
+}
+
+
