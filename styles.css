@@ -332,6 +332,18 @@ aside {
   /* border-bottom: 1px solid rgb(37, 11, 11);   */
 }
 
+.editors-pick-header hr{
+  width: 100px;
+  padding-top: 0;
+  margin-top: 0;
+}
+
+.second-editors-picks {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);  
+  column-gap: 20px;
+  row-gap:  20px;
+
 .upper-section-aside {
   /* background-color: red;
   border: 2px solid red; */
