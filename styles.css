@@ -60,6 +60,18 @@ nav .right-align {
   margin-left: 28px;
 }
 
+.fa-comment-alt,
+.fa-bookmark{
+ color: gray;
+ font-size: 25px;
+ width: 30px;
+ height: 30px;
+ padding-top: 7px;  
+ text-align: center;
+ border-radius: 50%;
+ cursor: pointer;  
+}
+
 .circle-bg{
   width: 30px;
   height: 30px;
@@ -117,7 +129,7 @@ figure img {
 }
 
 .section-1-child {  
-  background-color: yellow;
+  /* background-color: yellow; */
   flex-basis: 50%; 
   margin-left: 25%;
   margin-top: 40px;
@@ -258,7 +270,7 @@ aside {
   margin-bottom: 13px;
   margin-top: 10px;
   width: 60px;
-  border-bottom: 1px solid black;  
+  /* border-bottom: 1px solid black;   */
 }
 
 .grid-footer p {
@@ -271,7 +283,7 @@ aside {
 }
 
 .section-3 {  
-  background-color: rgb(24, 88, 226);
+  /* background-color: rgb(24, 88, 226); */
   margin-right: 25%;
   margin-left: 25%;
   margin-top: 40px;
@@ -281,19 +293,19 @@ aside {
   display: flex;
   flex-direction: column;
   width: 100%; 
-  background-color: rgb(219, 139, 139);
+  /* background-color: rgb(219, 139, 139); */
 }
 
 .upper-section {
   display: flex;
   justify-content: center;
-  background-color: blueviolet;
+  /* background-color: blueviolet; */
   margin: 50px 10% auto 10%;
 }
 
 .upper-section-left-grid {
-  background-color: green;
-  border: 2px solid green;
+  /* background-color: green;
+  border: 2px solid green; */
    flex: 3;
 
 }
@@ -317,30 +329,30 @@ aside {
 
 .upper-section-left-grid hr {
   margin-top: 10px; 
-  border-bottom: 1px solid rgb(37, 11, 11);  
+  /* border-bottom: 1px solid rgb(37, 11, 11);   */
 }
 
 .upper-section-aside {
-  background-color: red;
-  border: 2px solid red;
+  /* background-color: red;
+  border: 2px solid red; */
 }
 
 .more-article-links {
-  background-color: yellow;
+  /* background-color: yellow; */
 }
 
 .second-editors-picks {
-  background-color: blue;
+  /* background-color: blue; */
 }
 
 .lower-section {
-  background-color: gray;
+  /* background-color: gray; */
 }
 
 .bottom-nav {
-  background-color: hotpink;
+  /* background-color: hotpink; */
 }
 
 .footer {
-  background-color: indigo;
+  /* background-color: indigo; */
 } 
