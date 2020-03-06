@@ -318,6 +318,19 @@ aside {
   /* margin: 0 20px 20px 20px; */
 }
 
+.upper-section-aside-item p, 
+.article-grid-item p {
+  font-size: 19px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: rgb(18, 18, 18);
+  font-weight: 500;
+}
+
+.upper-section-aside-item a, 
+.article-grid-item a {
+  text-decoration: none;
+} 
+
 .more-article-links {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -350,6 +363,7 @@ aside {
   /* justify-content: center; */
   /* background-color: blueviolet; */
   margin: 50px 5% auto 5%;
+  border-bottom: 1px solid #e2e2e2;
 }
 
 .nyt-bottom-nav header {
@@ -466,7 +480,7 @@ aside {
 }
 
 .footer {
-  margin: 50px 10% auto 10%;
+  margin: 10px 10% 50px 10%;
 }
 
 .footer ul {
