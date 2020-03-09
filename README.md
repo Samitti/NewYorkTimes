@@ -1,4 +1,5 @@
 # NewYorkTimes Clone Project
+An Example Repo for microverse Projects path as a mockup of New-York Times article page.
 
 
 Screenshot of Page
@@ -13,16 +14,23 @@ Screenshot of Page
 
 - Html,
 - Css
+- Grid Module
+- Flexbox
+- Linter validator
 
 [Live Demo Link](https://rawcdn.githack.com/Samitti/NewYorkTimes/31192a151c9c08818aa8041ac5afb02924a8e17e/index.html)
 
+## About
+An Example Repo for microverse Projects path as a mockup of [New-York times page](https://www.nytimes.com/2014/03/18/science/space/detection-of-waves-in-space-buttresses-landmark-theory-of-big-bang.html?_r=0). 
+It contains an exact copy of the layout, and similar functionality and the same user experience.
+
 ## Authors
 
-👤 **Jelil**
+👤 **Jelil Faisal Abudu**
 
-- Github: [@githubhandle](https://github.com/OA7)
-- Twitter: [@twitterhandle](https://twitter.com/Osong17)
-- Linkedin: [linkedin](https://linkedin.com/osong-agberndifor)
+- Github: [@githubhandle](https://github.com/JelilFaisalAbudu)
+- Twitter: [@twitterhandle](https://twitter.com/jelilabudu)
+- Linkedin: [linkedin](https://www.linkedin.com/in/jelil-faisal-abudu-3b7a2182/)
 
 👤 **Samuel Teweldebrhan Ghebremeskel**
 
