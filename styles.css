@@ -199,6 +199,11 @@ figure img {
   margin-bottom: 20px;
 }
 
+.section-3 iframe {
+  width: 100%;
+  height: 360px;  
+}
+
 .story h1 {
   font-size: 25px;
   margin-bottom: 20px;
@@ -392,10 +397,10 @@ aside {
 }
 
 .upper-section-aside-item p,
-.article-grid-item p {
+.article-grid-item div {  
   font-size: 19px;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  color: rgb(18, 18, 18);
+  color: rgb(209, 23, 23);
   font-weight: 500;
   line-height: 22px;
 }
