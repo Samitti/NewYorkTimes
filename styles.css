@@ -565,9 +565,9 @@ aside {
 }
 
 .fixed-footer {
-  background: rgb(14, 16, 17);
+  background: rgb(33, 34, 36);
   bottom: 0;
-  height: 80px;
+  height: 60px;
   width: 100%;
   position: fixed;
   text-decoration: none;
@@ -578,18 +578,18 @@ aside {
   justify-content: space-between;
   color: white;
   font-size: 18px;
-  margin: 35px 15% 0 40%;
+  margin: 20px 10% 0 40%;
 }
 
 .fixed-footer p {
-  font-size: 20px;
+  font-size: 15px;
   font-family: nyt-frankin, Georgia, 'Times New Roman', Times, serif;
   word-spacing: 5px;
 }
 
 .fixed-footer  div .sub {
-  font-size: 17px;
-  padding-left: 200px;
+  font-size: 15px;
+  padding-left: 150px;
 }
 
 .space-link a:hover {
