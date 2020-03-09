@@ -5,8 +5,8 @@ Screenshot of Page
 
 ![screenshot 1](screen-shots/Screen-Shot-1.jpg) 
 ![screenshot 2](screen-shots/Screen-Shot-2.jpg)
-![screenshot 2](screen-shots/Screen-Shot-3.jpg)
-![screenshot 2](screen-shots/Screen-Shot-3.jpg) 
+![screenshot 3](screen-shots/Screen-Shot-3.jpg)
+![screenshot 4](screen-shots/Screen-Shot-4.jpg) 
 
 
 ## Built With
@@ -14,11 +14,11 @@ Screenshot of Page
 - Html,
 - Css
 
-[Live Demo Link](https://rawcdn.githack.com/OA7/Osong-and-Samuel-Html-Form-page/1d4a8afc8c1756b80d2b8d8cc57611d2cba83451/index.html)
+[Live Demo Link](https://rawcdn.githack.com/Samitti/NewYorkTimes/31192a151c9c08818aa8041ac5afb02924a8e17e/index.html)
 
 ## Authors
 
-👤 **Osong Agberndifor**
+👤 **Jelil**
 
 - Github: [@githubhandle](https://github.com/OA7)
 - Twitter: [@twitterhandle](https://twitter.com/Osong17)
@@ -34,7 +34,7 @@ Screenshot of Page
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/OA7/Osong-and-Samuel-Html-Form-page/issues).
+Feel free to check the [issues page](       ).
 
 ## Show your support
 
