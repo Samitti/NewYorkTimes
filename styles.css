@@ -208,7 +208,7 @@ figure img {
 
 .section-3 iframe {
   width: 100%;
-  height: 360px;  
+  height: 360px;
 }
 
 .story h1 {
@@ -404,7 +404,7 @@ aside {
 }
 
 .upper-section-aside-item p,
-.article-grid-item div {  
+.article-grid-item div {
   font-size: 19px;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   color: rgb(18, 18, 18);
@@ -574,7 +574,7 @@ aside {
   text-decoration: none;
 }
 
-.fixed-footer  div {
+.fixed-footer div {
   display: flex;
   justify-content: space-between;
   color: white;
@@ -588,7 +588,7 @@ aside {
   word-spacing: 5px;
 }
 
-.fixed-footer  div .sub {
+.fixed-footer div .sub {
   font-size: 15px;
   padding-left: 150px;
 }
