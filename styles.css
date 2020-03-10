@@ -26,6 +26,10 @@ ul {
   width: 100%;
 }
 
+aside a {
+  text-decoration: none;
+}
+
 nav .left-align {
   display: flex;
   justify-content: space-between;
@@ -78,7 +82,6 @@ nav .right-align {
   background-color: #567b95;
   padding: 11px 12px 8px;
   text-transform: uppercase;
-  padding-left: auto;
   border: 0;
 }
 
@@ -149,14 +152,14 @@ figure img {
   height: auto;
 }
 
-.story-body {
-  display: flex;
-  justify-content: space-around;
+.section-1-child::after {
+  clear: both;
 }
 
 .section-1-child {
   flex-basis: 50%;
   margin-left: 25%;
+  margin-right: 25%;
   margin-top: 40px;
 }
 
@@ -234,8 +237,11 @@ figure img {
 }
 
 aside {
-  margin-top: 900px;
   width: 15%;
+  float: right;
+  position: relative;
+  top: -1100px;
+  margin-right: 60px;
 }
 
 .aside-header {
@@ -259,6 +265,16 @@ aside {
   width: 75px;
   height: 75px;
   margin-right: 10px;
+}
+
+.story {
+  display: flex;
+  flex-direction: column;
+  padding: 0 0 0 0;
+}
+
+.header-and-caption {
+  width: 950px;
 }
 
 .section-2 {
@@ -291,6 +307,8 @@ aside {
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
   column-gap: 15px;
+  width: 950px;
+  margin-top: 0;
 }
 
 .story-body-grid p {
@@ -475,6 +493,16 @@ aside {
   display: flex;
 }
 
+.footer a {
+  font-size: 11px;
+  color: #666;
+  text-decoration: none;
+}
+
+aside a:hover {
+  text-decoration: underline;
+}
+
 .bottom-site-link-left {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
@@ -492,12 +520,6 @@ aside {
 .bottom-site-link-left .link-items {
   display: grid;
   row-gap: 3px;
-}
-
-.footer a {
-  font-size: 11px;
-  color: #666;
-  text-decoration: none;
 }
 
 .bottom-site-link-left .link-items a {
